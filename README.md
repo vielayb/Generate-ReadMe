@@ -1,7 +1,7 @@
 
 # README
 ## Description
-hello
+k
 ## Table Of Contents
 * [Description](#description)
 * [Usage](#usage)
@@ -9,7 +9,7 @@ hello
 * [License](#license)
 ## Usage
 ## Credits
-hello
+k
 ## License
-Licensed under the [GNU](https://choosealicense.com/licenses/gpl-3.0/) license
+Licensed under the [Apache](https://choosealicense.com/licenses/apache-2.0/) license
   
