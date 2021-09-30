@@ -46,6 +46,32 @@ const questions = () => {
         }
     },
     {
+        type: 'input',
+        name: 'github',
+        message: 'What is your GitHub username',
+        validate: nameInput => {
+        if (nameInput) {
+            return true;
+        } else {
+            console.log('Please enter your GitHub username!');
+            return false;
+        }
+        }
+    },
+    {
+        type: 'input',
+        name: 'email',
+        message: 'What is your email address',
+        validate: nameInput => {
+        if (nameInput) {
+            return true;
+        } else {
+            console.log('Please enter your email address!');
+            return false;
+        }
+        }
+    },
+    {
         type: 'list',
         message: 'Please pick a license',
         name: 'license',
@@ -55,7 +81,6 @@ const questions = () => {
 };
 
 questions().then(answers => {console.log(answers)
-    console.log(generateMarkdown);
     writeToFile(generateMarkdown(answers));
 });
 
@@ -63,6 +88,6 @@ questions().then(answers => {console.log(answers)
 function writeToFile(data) {
 fs.writeFile('ReadMe.md', data, err => {
     if (err) throw err;
-    console.log('Portfolio complete! Check out index.html to see the output!');
+    console.log('Readme Generator complete! Check out ReadME.md to see the output!');
   });
 }
