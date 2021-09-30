@@ -60,6 +60,8 @@ ${answers.description}
 ## Usage
 ${answers.usage}
 ![screenshot](/assets/images/readme-gen.png)
+
+Link for walk through video [Readme walk through](https://watch.screencastify.com/v/G6KteaP4Gs4TLd4VTkJT)
 ## Credits
 ${answers.credits}
 ## Questions

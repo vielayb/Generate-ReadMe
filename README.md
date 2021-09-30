@@ -10,10 +10,12 @@ This is a Readme Generator. An important part of a repository is having a good r
 * [Questions](#questions)
 * [License](#license)
 ## Usage
-Go to https://github.com/${answers.github}, clone the Readme Generator repository and run in your terminal or gitbash. If you have an image, navigate to the assets folder and save it in the image folder.
+From the GitHub Repository, clone the Readme Generator repository and run in your terminal or gitbash. If you have an image, navigate to the assets folder and save it in the image folder.
 ![screenshot](/assets/images/readme-gen.png)
+
+Link for walk through video [Readme walk through](https://watch.screencastify.com/v/G6KteaP4Gs4TLd4VTkJT)
 ## Credits
-Vielay
+Vielay Bangphaxay
 ## Questions
 If you have any questions, please feel free to reach me at my GitHub or Email.
 * GitHub: https://github.com/vielayb
